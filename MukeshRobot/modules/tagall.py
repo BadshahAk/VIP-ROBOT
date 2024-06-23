@@ -134,10 +134,10 @@ TAGMES = [ " **𝐇𝐞𝐲 𝐁𝐚𝐛𝐲 𝐊𝐚𝐡𝐚 𝐇𝐨🥱** ",
            " **𝐉𝐨𝐢𝐧 𝐊𝐚𝐫 𝐋𝐨:- [ @VIP_CREATORS ] 🤗** ",
            " **𝐄𝐤 𝐃𝐢𝐥 𝐇𝐚𝐢 𝐄𝐤 𝐃𝐢𝐥 𝐇𝐢 𝐓𝐨 𝐇𝐚𝐢😗😗** ",
            " **𝐓𝐮𝐦𝐡𝐚𝐫𝐞 𝐃𝐨𝐬𝐭 𝐊𝐚𝐡𝐚 𝐆𝐲𝐞🥺** ",
-           " **𝐌𝐲 𝐂𝐮𝐭𝐞 𝐎𝐰𝐧𝐞𝐫 [ @THE_VIP_BOY ]🥰** ",
+           " **𝐌𝐲 𝐂𝐮𝐭𝐞 𝐎𝐰𝐧𝐞𝐫 [ @VICKY_CHOUDHARY_1203 ]🥰** ",
            " **𝐊𝐚𝐡𝐚 𝐊𝐡𝐨𝐲𝐞 𝐇𝐨 𝐉𝐚𝐚𝐧😜** ",
            " **𝐆𝐨𝐨𝐝 𝐍8 𝐉𝐢 𝐁𝐡𝐮𝐭 𝐑𝐚𝐭 𝐇𝐨 𝐠𝐲𝐢🥰** ",
-           ]
+         ]
 
          
 
@@ -212,8 +212,8 @@ async def mentionall(event):
         pass
 
 
-@client.on(events.NewMessage(pattern="^/cancel$"))
-@client.on(events.NewMessage(pattern="^/stop$"))
+@client.on(events.NewMessage(pattern="^/cancel"))
+@client.on(events.NewMessage(pattern="^/stop"))
 async def cancel_spam(event):
     if not event.chat_id in spam_chats:
         return await event.respond("𝐇𝐞𝐫𝐞 𝐍𝐨 𝐀𝐧𝐲 𝐌𝐞𝐧𝐭𝐢𝐨𝐧 𝐏𝐫𝐨𝐜𝐞𝐬𝐬 𝐈𝐬 𝐒𝐭𝐚𝐫𝐭𝐞𝐝 𝐁𝐲 𝐌𝐞..")
